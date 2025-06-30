@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: beige;
+}
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: gold;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+form {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+#guest-list {
+  list-style: none;
+  padding: 0;
+}
+.guest-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: brown;
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+.guest-name {
+  flex: 1;
+}
+.rsvp {
+  margin: 0 0.5em;
+  cursor: pointer;
+  color: #ff5722;
+}
+.remove-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.2em 0.6em;
+  cursor: pointer;
+}
+.attending {
+  color: green;
+}
+.not-attending {
+  color: gray;
+}
